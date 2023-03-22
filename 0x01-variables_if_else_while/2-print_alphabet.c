@@ -3,14 +3,15 @@
 /**
  * main - main function 
  *
- * Reaturn: always 0 
+ * Return: always 0
  */
 
 int main(void)
 {
 	char i;
-	for (i = 'a' ; i<= 'z' ; i++)
+
+	for (i = 'a' ; i <= 'z' ; i++)
 		putchar(i);
 	putchar('\n');
-	return(0);
+	return (0);
 }
